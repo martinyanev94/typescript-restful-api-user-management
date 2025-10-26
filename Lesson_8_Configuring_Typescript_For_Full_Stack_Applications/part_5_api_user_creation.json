@@ -1,0 +1,5 @@
+"scripts": {
+  "start": "nodemon --exec ts-node src/server.ts"
+}
+npm start
+curl -X POST http://localhost:3000/api/user -H "Content-Type: application/json" -d '{"name": "Alice", "email": "alice@example.com"}'
