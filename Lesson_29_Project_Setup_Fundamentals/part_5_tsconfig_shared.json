@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "../dist/shared",
+    "declaration": true,
+    "strict": true
+  }
+}
