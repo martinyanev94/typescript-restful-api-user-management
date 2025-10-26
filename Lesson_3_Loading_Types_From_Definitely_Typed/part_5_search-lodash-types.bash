@@ -1,0 +1,1 @@
+npm search @types/lodash
