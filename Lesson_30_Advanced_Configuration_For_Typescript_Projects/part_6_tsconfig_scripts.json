@@ -1,0 +1,22 @@
+// tsconfig.dev.json
+{
+  "compilerOptions": {
+    "strict": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "noEmit": false
+  }
+}
+// tsconfig.prod.json
+{
+  "compilerOptions": {
+    "strict": false,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "noEmit": false
+  }
+}
+"scripts": {
+  "build:dev": "tsc -p tsconfig.dev.json",
+  "build:prod": "tsc -p tsconfig.prod.json"
+}
